@@ -43,3 +43,40 @@ A Python program that asks the user's name and displays a welcome message using 
 - Python
 - Visual Studio Code
 - Git and GitHub
+
+## Day 3 - Python Advanced Basics
+
+### Topics Practiced
+1. Classes and Objects
+2. Inheritance
+3. Exception Handling
+4. File Handling
+5. JSON Files
+6. CSV Files
+7. Python Modules
+8. pip and requirements.txt
+9. Environment Variables
+10. Type Hints
+
+### Implementation Project
+ChatBot with Chat History and Student CSV Summary
+
+Features:
+- Created a ChatBot class
+- Added add_message() and get_reply() methods
+- Saved chat history to chat_history.json
+- Loaded previous chat history
+- Handled missing chat history file
+- Read student details from student.csv
+- Printed student marks summary and average
+- Stored bot name in .env file
+
+### Technologies Used
+- Python
+- JSON
+- CSV
+- python-dotenv
+
+### Run the Project
+python chatbot_implementation.py
+
