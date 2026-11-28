@@ -80,3 +80,29 @@ Features:
 ### Run the Project
 python chatbot_implementation.py
 
+## Day 4: NumPy and Pandas
+
+### Topics Covered
+1. Jupyter Notebook and Google Colab basics
+2. NumPy arrays: creation, shape, indexing, and slicing
+3. Vectorised operations and broadcasting
+4. NumPy statistics: mean, median, standard deviation, minimum, and maximum
+5. Pandas Series and DataFrame
+6. Reading CSV and Excel files
+7. Data inspection using `head()`, `info()`, and `describe()`
+8. Filtering, sorting, and adding columns
+9. GroupBy and aggregation
+10. Handling missing values using `isnull()`, `fillna()`, and `dropna()`
+
+### Implementation: Student Performance Data Analysis
+
+- Loaded a public student performance CSV dataset using Pandas.
+- Cleaned missing values.
+- Added derived columns: `Total_Marks`, `Average_Marks`, and `Result`.
+- Answered five questions using filtering and `groupby()`.
+- Saved the cleaned dataset as a CSV file.
+
+### Files
+- `student_performance (1).ipynb` – Implementation notebook
+- `clean.csv` – Cleaned dataset
+
